@@ -140,7 +140,7 @@ namespace BIMSource.SPWriter
               bpg = BuiltInParameterGroup.INVALID;
             }
 
-            m_manager.AddParameter(def, bpg, false);
+            m_manager.AddParameter(def, bpg, true);
 
           }
           catch (System.Exception e)
